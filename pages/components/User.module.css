@@ -1,0 +1,74 @@
+.contenedorDatos {
+  width: 250px;
+  height: 300px;
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 2;
+  border: solid 1px;
+  border-color: #afafaf;
+  margin-top: 8px;
+}
+.nombre {
+  color: rgb(220, 220, 220);
+  padding: 5px;
+  display: flex;
+  align-items: end;
+  font-size: 13px;
+  margin-left: -33%;
+}
+.aerocard {
+  color: white;
+  display: flex;
+  margin-left: 4%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.tarjetablack {
+  width: 210px;
+  height: 120px;
+  background: rgb(30, 30, 30);
+  margin: 0 auto;
+  margin-top: 10%;
+  border-radius: 9px;
+  display: flex;
+}
+.boton {
+  color: white;
+  border-radius: 7px;
+  background: linear-gradient(102.47deg, #176feb -5.34%, #ff80ff 106.58%);
+}
+
+.botonadd {
+  border-radius: 8px;
+  background: linear-gradient(102.47deg, #176feb -5.34%, #ff80ff 106.58%);
+  width: 200px;
+  margin-left: 10%;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.botonDespliegue {
+  background: linear-gradient(102.47deg, #176feb -5.34%, #ff80ff 106.58%);
+  border-radius: 10px;
+  width: 150%;
+  position: relative;
+  z-index: 999;
+  color: white;
+  font-size: 20px;
+}
+.contenedorbotondespliegue {
+  position: fixed;
+  z-index: 999;
+}
+.botonDespliegue:hover {
+  transform: scale(1.1);
+}
+/* estos van hacer los botones con los points */
+.botones {
+  background: #176feb;
+  margin-left: 5px;
+  padding: 4px;
+  border-radius: 10px;
+  color: white;
+  width: 75px;
+}

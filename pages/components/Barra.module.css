@@ -1,0 +1,32 @@
+.titulo {
+  color: darkmagenta;
+}
+.selector {
+  background: rgb(255, 255, 255);
+  margin-left: 50px;
+  margin-right: 100px;
+  border-radius: 10px;
+  border: solid;
+  border-width: 1px;
+  border-color: #aeaeae;
+}
+.filtro {
+  width: 20px;
+}
+.contenedor {
+  width: 900px;
+  height: 150px;
+  margin-top: 10%;
+}
+.ordenadores {
+  width: 130px;
+  border-radius: 10px;
+  margin: 3px;
+  background: linear-gradient(102.47deg, #176feb -5.34%, #ff80ff 106.58%);
+  color: white;
+}
+.ordenadores:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgb(68, 68, 68);
+  transition: all 0.2s ease;
+}
